@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #ffffff;
+}
+
+.navbar-container {
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 10px;
+
+}
+
+.navbar-1 {
+    background: #484848;
+    padding: 10px;
+
+}
+
+.navbar-1 ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.navbar-1 li {
+    display: inline;
+}
+
+.navbar-1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
