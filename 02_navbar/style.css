@@ -41,12 +41,16 @@ h1 {
 }
 
 .navbar-1 .login-btn {
-    background: #0832ec;
-    color: #ffffff;
-    padding: 5px 15px;
+    background: #00FFFFFF;
+    padding: 5px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.navbar-1 .login-btn:hover {
+    background: #1106f4;
+    color: #ffffff;
 }
 
 .navbar-1 a::after {
