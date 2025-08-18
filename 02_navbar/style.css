@@ -36,4 +36,31 @@ h1 {
 .navbar-1 a {
     text-decoration: none;
     color: #ffffff;
+    padding: 5px 15px;
+    position: relative;
+}
+
+.navbar-1 .login-btn {
+    background: #0832ec;
+    color: #ffffff;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-1 a::after {
+    content: "abc";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #7586d1;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-1 a:hover::after {
+    transform: scaleX(1);
 }
