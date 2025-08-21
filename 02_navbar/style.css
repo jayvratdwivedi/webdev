@@ -27,6 +27,7 @@ h1 {
     margin: 0;
     padding: 0;
     justify-content: space-around;
+    align-items: center;
 }
 
 .navbar-1 li {
@@ -109,6 +110,54 @@ h1 {
 .navbar-2 .login-btn:hover {
     background: #1106f4;
     color: #ffffff;
+    border: none;
+}
 
+.navbar-3 {
+    background: #8a85f1;
+    padding: 5px;
+}
+
+.navbar-3 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-3 a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+
+}
+
+.navbar-3 a:hover {
+    background-color: #1106f4;
+}
+
+.navbar-3 .dropdown-content {
+    display: none;
+
+}
+
+.navbar-3 .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    background: #8a85f1;
+}
+
+.navbar-3 .login-btn {
+    background: #00FFFFFF;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-3 .login-btn:hover {
+    background: #1106f4;
+    color: #ffffff;
     border: none;
 }
